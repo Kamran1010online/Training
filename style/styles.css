@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap");
 * {
   box-sizing: border-box;
   font-family: raleway;
@@ -36,10 +37,54 @@ body {
   background-size: cover;
   padding-bottom: 30px;
 }
-.band-name-large {
-  font-family: "Booter - Zero Zero";
+.band-name {
+  font-family: "Rale way";
   text-align: center;
   font-weight: normal;
   font-size: 4em;
   color: white;
+}
+.content-section {
+  margin: 30px;
+}
+.conatiner {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.section-header {
+  font-family: "Metal Mania";
+  text-align: center;
+  font-size: 50px;
+}
+.about-the-band {
+  float: left;
+  height: 200px;
+  width: 200px;
+  margin: 15px;
+  border-radius: 50%;
+}
+.main-footer {
+  background-color: turquoise;
+  color: white;
+  paddingh: 20px 0;
+}
+.main-footer-container {
+  display: flex;
+  align-items: center;
+}
+.main-footer-container ul {
+  flex-grow: 1;
+  text-align: end;
+}
+.footer-nav li {
+  padding: 0 5px;
+  margin-right: 80px;
+}
+.footer-nav img {
+  width: 30px;
+  height: 30px;
+}
+.footer-band-name {
+  margin-left: 100px;
 }
