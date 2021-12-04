@@ -47,10 +47,11 @@ body {
 .content-section {
   margin: 30px;
 }
-.conatiner {
+.container {
   max-width: 900px;
   margin: 0 auto;
   padding: 0 20px;
+  text-align: center;
 }
 .section-header {
   font-family: "Metal Mania";
@@ -87,4 +88,34 @@ body {
 }
 .footer-band-name {
   margin-left: 100px;
+}
+.btn {
+  text-align: center;
+  cursor: pointer;
+  padding: 8px;
+  vertical-align: middle;
+}
+.btn-header {
+  margin: 0.5em 15% 2em 15%;
+  color: white;
+  border: 2px solid #2d9cdb;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 0%;
+  font-size: 20px;
+  font-weight: lighter;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.btn-header:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.btn-play {
+  display: block;
+  margin: 0 auto;
+  color: #2d9cdb;
+  font-size: 40px;
+  border-radius: 50%;
+  padding: 0;
+  width: 100px;
+  height: 100px;
 }
